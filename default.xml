@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<default sync-j="4"/>
+
+	<remote name="yocto"  fetch="https://git.yoctoproject.org/git"/>
+
+	<project remote="yocto" name="poky" revision="refs/tags/sumo-19.0.3" path="sources/poky"/>
+
+</manifest>
