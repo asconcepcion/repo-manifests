@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<default sync-j="4"/>
+
+	<remote name="yocto"  fetch="https://git.yoctoproject.org/git"/>
+	<remote name="qt" fetch="git://code.qt.io/"/>
+	<remote name="github" fetch="ssh://git@github.com"/>
+
+	<project remote="yocto" name="poky" 
+				revision="refs/tags/yocto-3.1.5"
+				path="sources/poky"/>
+
+	<project remote="qt" name="yocto/meta-qt6.git" 
+				revision="refs/tags/v6.0.1" 
+				path="sources/meta-qt6"/>
+
+	<project remote="github" name="asconcepcion/meta-asconcepcion-qt6.git"
+				revision="refs/heads/master"
+				path="sources/meta-asconcepcion-qt6"/>
+
+</manifest>
