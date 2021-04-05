@@ -12,7 +12,7 @@
 				path="sources/poky"/>
 
 	<project remote="qt" name="yocto/meta-qt6.git" 
-				revision="refs/tags/v6.0.1" 
+				revision="refs/tags/v6.0.3" 
 				path="sources/meta-qt6"/>
 
 	<project remote="github" name="asconcepcion/meta-asconcepcion-qt6.git"
